@@ -15,7 +15,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/White-Jotter-master/wj/target/${project.artifactId}-${project.version}/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/DatabaseProject/wj/target/${project.artifactId}-${project.version}/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="wj/web/Web" />
     </root>
