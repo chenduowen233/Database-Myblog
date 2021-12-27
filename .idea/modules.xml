@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Database-Myblog.iml" filepath="$PROJECT_DIR$/.idea/Database-Myblog.iml" />
-      <module fileurl="file://$PROJECT_DIR$/White-Jotter-master/wj/wj.iml" filepath="$PROJECT_DIR$/White-Jotter-master/wj/wj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DatabaseProject/wj/wj.iml" filepath="$PROJECT_DIR$/DatabaseProject/wj/wj.iml" />
     </modules>
   </component>
 </project>
