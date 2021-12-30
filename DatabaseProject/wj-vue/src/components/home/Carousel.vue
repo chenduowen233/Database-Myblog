@@ -1,5 +1,7 @@
 <template>
   <el-card class="card-carousel">
+    <div style="font-size: 30px;color: #1b1f23;white-space: nowrap">为世间美好而战</div>
+    <div style="font-size: 30px;color: #1b1f23;white-space: nowrap">☆</div>
   <el-carousel  class="push" :interval="4000" arrow="always">
     <el-carousel-item v-for="item in items" :key="item.id">
       <a :href=item.link target="_blank">
@@ -16,16 +18,16 @@
     color: black;
     font-size: 15px;
     /*line-height: 300px;*/
-    bottom: 43px;
+    bottom: 0px;
     float: left;
     position: relative;
   }
 
   .card-carousel {
     /*margin: 0 auto;*/
-    margin-left: 20px;
-    width: 680px;
-    height: 320px;
+    margin-left: 0px;
+    width: 975px;
+    height: 450px;
   }
 
   .push {
@@ -41,7 +43,7 @@
   }
 
   .carousel_img {
-    height: 100%;
+    height: 120%;
     width: 100%;
     text-align: center;
   }
@@ -54,20 +56,20 @@
       return {
         items: [{
           id: 1,
-          title: 'How2J.cn - Java 全栈学习网站',
-          img: '../../../static/img/carousel/how2j.png',
-          link: 'http://how2j.cn?p=50613'},
+
+          img: 'https://cdn.jsdelivr.net/gh/chenduowen233/Myblog@main/img/wallhaven-x8j8ol.jpg',
+          link: 'https://cdn.jsdelivr.net/gh/chenduowen233/Myblog@main/img/wallhaven-x8j8ol.jpg'},
         {
           id: 2,
-          title: 'Vue.js - 渐进式 JavaScript 框架',
-          img: '../../../static/img/carousel/vue.png',
-          link: 'https://cn.vuejs.org/'
+
+          img: 'https://cdn.jsdelivr.net/gh/chenduowen233/Myblog@main/img/i123.jpg',
+          link: 'https://cdn.jsdelivr.net/gh/chenduowen233/Myblog@main/img/i123.jpg'
         },
         {
           id: 3,
-          title: 'element-ui - 网站快速成型工具',
-          img: '../../../static/img/carousel/element.png',
-          link: 'http://element-cn.eleme.io/#/zh-CN'
+
+          img: 'https://cdn.jsdelivr.net/gh/chenduowen233/Myblog@main/img/2197682512.jpg',
+          link: 'https://cdn.jsdelivr.net/gh/chenduowen233/Myblog@main/img/2197682512.jpg'
         }]
       }
     }

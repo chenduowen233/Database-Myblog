@@ -17,24 +17,17 @@ public class Movie {
     @Column(name = "id")
     private int id;
 
-
     private String title;
-
 
     private String director;
 
-
     private String date;
-
 
     private String grade;
 
-
     private String abs;
 
-
     private String cover;
-
 
     @ManyToOne
     @JoinColumn(name="cid")

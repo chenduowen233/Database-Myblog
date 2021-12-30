@@ -24,8 +24,7 @@ https://github.com/Antabot/White-Jotter
 5.Spring Data Redis
 
 ## 数据库
-
-1.MySQL  
+1.MySQL
 2.Redis
 
 # 部署方法

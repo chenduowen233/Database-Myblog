@@ -36,15 +36,6 @@ public class MovieService {
         return movies;
     }
 
-//    直接用注解实现缓存
-//    @Cacheable(value = RedisConfig.REDIS_KEY_DATABASE)
-//    public List<movie> list() {
-//        List<movie> movies;
-//        Sort sort = new Sort(Sort.Direction.DESC, "id");
-//        movies = movieDAO.findAll(sort);
-//        return movies;
-//    }
-
     public void addOrUpdate(Movie movie) {
         redisService.delete("movielist");
         movieDAO.save(movie);

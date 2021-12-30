@@ -36,7 +36,7 @@
   }
 
   .footer {
-    background: #2b2e33;
+    background: rgba(186, 238, 228, 0.83);
   }
 
   .footer .alt {

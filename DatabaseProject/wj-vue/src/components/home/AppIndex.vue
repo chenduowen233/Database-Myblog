@@ -3,7 +3,6 @@
     <side-menu id="side-menu"></side-menu>
       <div class="home">
         <div id="header-div">
-          <div style="height: 150px"></div>
           <carousel></carousel>
           <quick-nav style="float: right;margin-top: -450px;margin-right: 480px"></quick-nav>
         </div>
@@ -20,10 +19,10 @@
   import Slogan from './Slogan'
   import About from '@/components/common/About'
   import UpdateCard from './UpdateCard'
-  import SideMenu from './SideMenu'
+  // import SideMenu from './SideMenu'
   export default {
     name: 'AppIndex',
-    components: {Carousel, QuickNav, Slogan, About, UpdateCard, SideMenu}
+    components: {Carousel, QuickNav, Slogan, About, UpdateCard}
   }
 </script>
 
